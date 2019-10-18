@@ -12,22 +12,7 @@ post-hoc:
 library(multcomp)
 ```
 
-    ## Loading required package: mvtnorm
-
-    ## Loading required package: survival
-
-    ## Loading required package: TH.data
-
-    ## Loading required package: MASS
-
-    ## 
-    ## Attaching package: 'TH.data'
-
-    ## The following object is masked from 'package:MASS':
-    ## 
-    ##     geyser
-
-On va également voir comment on peut très facilement définir des
+On va également voir comment on peut  définir des
 contrastes dans un modèle linéaire et ainsi réaliser des comparaisons
 planifiées en amont de l’analyse. Je ne vais pas ici redétailler les
 définitions des modèles d’ANOVA ni les modèles linéaires.
@@ -88,7 +73,7 @@ Considérons une variable réponse
 ![A](https://latex.codecogs.com/png.latex?A "A") ayant trois modalités
 ![a\_1,a\_2,a\_3,a\_4](https://latex.codecogs.com/png.latex?a_1%2Ca_2%2Ca_3%2Ca_4
 "a_1,a_2,a_3,a_4"). On considère un échantillon de 140 valeurs de
-![Y](https://latex.codecogs.com/png.latex?Y "Y") définis ci-dessous
+![Y](https://latex.codecogs.com/png.latex?Y "Y"):
 
 ``` r
 head(ex1)
