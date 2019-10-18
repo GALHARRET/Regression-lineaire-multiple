@@ -318,33 +318,9 @@ summary(mod3)
     ## Multiple R-squared:  0.8546, Adjusted R-squared:  0.8514 
     ## F-statistic: 266.5 on 3 and 136 DF,  p-value: < 2.2e-16
 
-``` r
-mod3<-lm(Y~A,data=ex1)
-summary(mod3)
-```
 
-    ## 
-    ## Call:
-    ## lm(formula = Y ~ A, data = ex1)
-    ## 
-    ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -3.3040 -0.7898 -0.0713  0.6960  4.3960 
-    ## 
-    ## Coefficients:
-    ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)  10.2850     0.2715  37.882   <2e-16 ***
-    ## Aa2          -0.4317     0.3505  -1.232     0.22    
-    ## Aa3           4.4190     0.3212  13.756   <2e-16 ***
-    ## Aa4           6.7725     0.3325  20.367   <2e-16 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-    ## 
-    ## Residual standard error: 1.214 on 136 degrees of freedom
-    ## Multiple R-squared:  0.8546, Adjusted R-squared:  0.8514 
-    ## F-statistic: 266.5 on 3 and 136 DF,  p-value: < 2.2e-16
 
-Remarque: si on prend d’autres contrastes équivalents à
+Remarque: si on prend d’autres contrastes équivalents aux constrastes précédents on aura des valeurs estimées différentes par contre les valeurs de t, p seront les mêmes (ce qui était attendu). 
 
 ## Exemple 2:
 
