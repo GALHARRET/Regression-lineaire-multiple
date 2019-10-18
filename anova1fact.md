@@ -245,7 +245,7 @@ estimations des
 ![\\psi\_j](https://latex.codecogs.com/png.latex?%5Cpsi_j "\\psi_j")
 définis précédememnt dans R il faut diviser chaque des coefficients
 précédents par le nombre de comparaison effectué dans le contraste donc
-on définit la matrice de contraste comp définie ci-dessous
+on définit la matrice de contraste comp :
 
 ``` r
 comp<-matrix(c(-1/4,-1/4,-1/4,3/4,
