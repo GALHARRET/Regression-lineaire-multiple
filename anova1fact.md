@@ -69,10 +69,7 @@ sont orthogonaux si de plus on a
 système de contraste
 ![(\\psi\_1,...,\\psi\_{J-1})](https://latex.codecogs.com/png.latex?%28%5Cpsi_1%2C...%2C%5Cpsi_%7BJ-1%7D%29
 "(\\psi_1,...,\\psi_{J-1})") est complet si il est constitué de
-contrastes deux à deux orthogonaux et de norme 1 (c’est à dire
-![\\sum\_{j=1}^J
-a\_j=1](https://latex.codecogs.com/png.latex?%5Csum_%7Bj%3D1%7D%5EJ%20a_j%3D1
-"\\sum_{j=1}^J a_j=1")). Pour tester l’hypothèse
+contrastes deux à deux orthogonaux. Pour tester l’hypothèse
 ![H\_0:\\psi=0](https://latex.codecogs.com/png.latex?H_0%3A%5Cpsi%3D0
 "H_0:\\psi=0") on utilise la statistique   
 ![ t= \\frac{\\psi}{\\displaystyle \\sqrt{s^2\_R\\sum\_{j=1}^J\\left(
