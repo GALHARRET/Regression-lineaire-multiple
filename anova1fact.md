@@ -38,7 +38,7 @@ approach](https://www.wiley.com/en-us/ANOVA+and+ANCOVA%3A+A+GLM+Approach%2C+2nd+
 
 Tous les exemples seront ici traités avec R, on peut également utiliser
 [JAMOVI](https://www.jamovi.org/) ou
-[JASP](https://jasp-stats.org/download/) qui sont de très bons logiciels
+[JASP](https://jasp-stats.org/download/) qui sont des logiciels
 pour débuter en statistique.
 
 ## Rappels sur les contrastes
